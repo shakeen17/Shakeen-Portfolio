@@ -3,7 +3,7 @@ import { GoLinkExternal } from "react-icons/go";
 function Project() {
     const cardData = [
         {
-          imgSrc: "hackerRankIcon.png",
+          imgSrc: "hacker.avif",
           imgAlt: "Internshala Logo",
           title: "Problem Solving",
           badge: "HackerRank",
