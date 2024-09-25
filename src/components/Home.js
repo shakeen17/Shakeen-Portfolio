@@ -42,7 +42,7 @@ function Home() {
         </div>
 
         <div className='text-content flex flex-col items-start col-span-2'>
-          <h1 className='text-5xl font-semibold'>Shakeen Appadura</h1>
+          <h1 className='text-5xl font-semibold'>Shakeen Appaduraii</h1>
           <p className="text-lg mt-2">
             I'm a <span className="auto-type"></span>
           </p>
