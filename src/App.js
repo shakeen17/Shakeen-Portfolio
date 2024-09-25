@@ -13,6 +13,7 @@ import Contact from './components/Contact';
 import { CiDesktopMouse2 } from "react-icons/ci";
 
 function App() {
+
   const [showScrollUp, setShowScrollUp] = useState(false);
 
   // Handle scroll event to detect when we hit the project section
