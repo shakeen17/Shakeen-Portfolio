@@ -11,7 +11,7 @@ function Certificates() {
           category: 'group',
           image: "Blockchain.jpeg",
           title: 'Fake Product Detection using BlockChain',
-          content: 'Fake Product Detection using Blockchain is a full-stack application leveraging Ethereum smart contracts and proof of work to authenticate product authenticity. Built with React and Node.js, it ensures secure, decentralized verification, preventing counterfeit products in the supply chain.',
+          content: 'Fake Product Detection using Blockchain is a full-stack application leveraging Ethereum smart contracts and proof of work to authenticate product authenticity. Built with React and Node.js, it ensures secure, decentralized verification, preventing counterfeit products.',
           technologies: 'HTML, Javascript, Node.js, Blockchain, Solidity, Truffle, Meta Mask',
           links: [
             {
