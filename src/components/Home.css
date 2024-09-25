@@ -1,0 +1,25 @@
+
+.blob{
+    /* background-image: url(https://img.cricketworld.com/images/f-065804/kane-williamson-2.jpg); */
+    background-image: url(https://th.bing.com/th/id/OIP.RtjpHy0ss3ENgpEoSuGXQQHaFj?rs=1&pid=ImgDetMain);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    margin: 20px;
+    box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.5); /* White inner shadow */
+    border: 5px solid rgba(255, 255, 255, 0.3); /* White transparent border */
+    border-radius: 50%; /* Optional: makes the border rounded like the blob */
+    animation: animate 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+    filter: grayscale(100%); /* Apply black-and-white filter */
+}
+
+@keyframes animate{
+    0%, 100%{
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+}
