@@ -98,7 +98,7 @@ function Certificates() {
               {card.title}
             </h2>
             {/* Card content */}
-            <p className="text-justify text-gray-600 h-36 mb-3">
+            <p className="text-justify text-gray-600 h-36 mb-5">
               {card.content}
             </p>
             {/* Card technologies */}
