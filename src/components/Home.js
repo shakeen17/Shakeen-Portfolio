@@ -73,7 +73,7 @@ function Home() {
 
         </div>
 
-        <div className="blob">
+        <div className="blob" style={{ backgroundImage: "url('Profile1.jpg')" }}>
           {/* Add your blob content here */}
         </div>
       </div>
@@ -92,9 +92,11 @@ function Home() {
           </div>
 
           {/* Blob */}
-          <div className="blob flex justify-center items-center mt-5 mb-5">
+           {/* <div className="blob flex justify-center items-center mt-5 mb-5"> */}
             {/* Add your blob content here */}
-          </div>
+           {/* </div>  */}
+          <div className="blob flex justify-center items-center mt-5 mb-5" style={{ backgroundImage: "url('profile_photo.jpg')" }}></div>
+
          </div>
 
           {/* Text content */}
